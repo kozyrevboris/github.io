@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research by Boris Kozyrev.">
+  <title>Research | Boris Kozyrev</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Boris Kozyrev</a>
+      <a href="cv.html">CV</a>
+      <a class="active" href="research.html">Research</a>
+      <a href="policy.html">Policy Work</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Research</h1>
+
+    <section class="section">
+      <h2 class="section-title">Job Market Paper</h2>
+      <article class="paper">
+        <div class="paper-title"><a href="files/Boris_Kozyrev_JMP.pdf">Regularizing Forecast Combination with Random Subsets</a></div>
+        <div class="paper-meta">Job Market Paper · 2026</div>
+        <details class="abstract" open>
+          <summary>Abstract</summary>
+          <p>How much should be estimated when combining many forecasts? Equal weighting is robust to estimation error but ignores heterogeneity in forecast quality, while estimated optimal weights exploit this heterogeneity at the cost of sampling uncertainty. This paper shows that random subset combination provides a regularization path between these two endpoints. We characterize the resulting approximation–estimation trade-off and show that, because subset regressions are estimated on a shared sample, the optimal subset size is of order <i>T</i><sup>1/4</sup> rather than the <i>T</i><sup>1/2</sup> rate for an individually evaluated estimated subset. A feasible finite-sample criterion selects the degree of regularization. Using the real-time Survey of Professional Forecasters data, we show that the criterion selects an interior subset size close to the ex-post loss-minimizing choice and substantially stabilizes full-pool adding-up weights. RSM is the most accurate rule in most of the samples. The application supports both the regularization mechanism and the possibility of practical forecast combination gains.</p>
+        </details>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Working Papers</h2>
+
+      <article class="paper">
+        <div class="paper-title"><a href="files/Working_Paper_1.pdf">Forecasting Economic Activity Using a Neural
+Network in Uncertain Times: Monte Carlo Evidence</a></div>
+        <div class="paper-meta">with Oliver Holtemöller (IWH & MLU)</div>
+        <details class="abstract">
+          <summary>Abstract</summary>
+          <p>In this study, we analyzed the forecasting and nowcasting performance of a generalized regression neural network (GRNN). We provide evidence from Monte Carlo simulations for the relative forecast performance of GRNN depending on the data-generating process. We show that GRNN outperforms an autoregressive benchmark model in many practically relevant cases. Then, we applied GRNN to forecast quarterly German GDP growth by extending univariate GRNN to multivariate and mixed-frequency settings. We could distinguish between
+“normal” times and situations where the time-series behavior is very different from
+“normal” times such as during the COVID-19 recession and recovery. GRNN was
+superior in terms of root mean forecast errors compared to an autoregressive
+model and to more sophisticated approaches such as dynamic factor models if
+applied appropriately.</p>
+        </details>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Work in Progress</h2>
+      <article class="paper">
+        <div class="paper-title">Enhancing Quarterly GDP Growth Forecasting Across Sectors with General Regression Neural Networks</div>
+        <div class="paper-meta">with Katja Heinisch (IWH)</div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-title">Regime-Switching GDP Reconciliation</div>
+        <div class="paper-meta">with Eiji Goto (University of Missouri-St. Louis)</div>
+      </article>
+
+      <article class="paper">
+        <div class="paper-title">Subset-Stability Rank Detection</div>
+        <div class="paper-meta">with Marco Fontanesi (UCL)</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">© Boris Kozyrev</footer>
+</body>
+</html>
